@@ -5,23 +5,21 @@
     <title>Facebook - Log In or Sign Up</title>
     <link rel="shortcut icon" href="fbicon.ico">
     <link rel="stylesheet" type="text/css" href="fb.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
 </head>
 <body>
 
-<div class="pagestyle">
-
+<div class="fb">
+  <div class="container">
     <div class="wrapper">
-
         <div class="header">
-
             <div class="logo">
                 <img style="width:240px; " src="sf.png">
             </div>
-
             <div class="login">
                 <table>
-                    <tbody>
                     <tr>
                         <td class="ss"> Email or Phone </td>
                         <td class="ss"> Password </td>
@@ -29,13 +27,13 @@
                     </tr>
                     <tr>
                         <td class="enter">
-                            <input id="inputs" class="inputs" name="email" value="" tabindex="1" type="email">
+                            <input class="inputs" name="email" value="" type="email">
                         </td>
                         <td class="enter">
-                            <input type="password" id="password" class="inputs">
+                            <input type="password" name="password" class="inputs">
                         </td>
                         <td class="xx">
-                           <a href="fb.html"><input value="Log In" tabindex="4" id="login-button" type="submit"></a>
+                           <a href="fb.html"><input value="Log In" id="login-button" type="submit"></a>
                         </td>
                     </tr>
                     <tr>
@@ -45,10 +43,8 @@
                             <p class="aa">Forgotten account?</p>
                         </td>
                     </tr>
-                    </tbody>
                 </table>
             </div>
-
         </div>
 
 <div class="middle">
@@ -56,7 +52,6 @@
             <div class="info">
                 Facebook helps you connect and share with the people in your life.
             </div>
-
          <div>
              <img class="img" src="image.png" alt="" style="vertical-align: middle">
          </div>
@@ -291,6 +286,6 @@
         </table>
         <p class="except" style="color:#737373; margin-top:2%; font-size:12px; font-family: Helvetica, Arial, sans-serif;">AnkitaSahoo © 2017</p>
     </footer>
-
+</div>
 </body>
 </html>

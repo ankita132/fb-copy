@@ -1,30 +1,42 @@
 body{
     padding:0;
     height:auto;
-    overflow-x: hidden;
+    width:100%;
     margin-left:auto;
     margin-right:auto;
+    overflow-x: hidden;
 }
-.pagestyle {
-    height:92.3vh;
+.fb{
+    height:89.5vh;
     cursor: auto;
     direction: ltr;
     width: 100%;
     background: linear-gradient(white, #D3D8E8) no-repeat;
     margin-top:5%;
+    min-width: max-content;
 }
 
+.container{
+  width:100%;
+  margin 0 auto;
+}
 .middle{
+  align-items: center;
+  width:76%;
+  margin:0 auto;
     position:relative;
     top:20%;
-    margin-left:6em;
+    margin:auto;
+    display:block;
+
 }
 
 .header {
     position:absolute;
     top:0;
     left:0;
-    height: 6.9vh;
+    width:100%;
+    height: 6.7vh;
     padding-top: 13px;
     background: linear-gradient(rgb(78, 105, 162), rgb(59, 89, 152) 50%);
     border-bottom: 1px solid rgb(19, 55, 131);
@@ -35,8 +47,9 @@ body{
     line-height: 16px;
     color: #ffffff;
     width: 100%;
-    padding-left: 5em;
-    padding-bottom: 2em;
+    padding-left: 45px;
+    padding-bottom: 25px;
+    margin-bottom: 2px;
 }
 
 .logo {
@@ -45,12 +58,13 @@ body{
     cursor: pointer;
     direction: ltr;
     display: inline-block;
-    margin-left:7.7%;
+    left:7.5%;
 }
 
 .login {
     float: right;
-    margin-right: 17.2%;
+    position:relative;
+    left:-15%;
 }
 
 ::-webkit-input-placeholder{
@@ -122,20 +136,21 @@ body{
     padding-top:11%;
 }
 .intro {
+
     font-family: Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 20px;
-    float: left;
-    margin-left: 7.1%;
+    position:relative;
+    top:-6.8vh;
 }
 
 .create {
+    display:inline-block;
     width: 399px;
-    float: right;
     font-family: "Freight Sans",Helvetica,Arial,sans-serif;
-    margin-right: 14.7%;
     position:relative;
-    top:0.7vh;
+    float:right;
+    margin-top:-52vh;
 }
 
 .wrapper
@@ -154,12 +169,14 @@ body{
 .birthdayboxes {
     position:relative;
     top:-3vh;
-    border: 1px solid #bdc7d8;
-    color: #1d2129;
-    direction: ltr;
-    font-size: 13px;
-    height: 30px;
-    padding: 5px;
+       border: 1px solid #bdc7d8;
+       color: #1d2129;
+ direction: ltr;
+ line-height: 1.34;
+       font-size: 13px;
+ height: 30px;
+ padding: 5px;
+
 }
 .kk{
     color:#365899;
@@ -196,14 +213,14 @@ body{
 .signupb:hover{
     background: linear-gradient(#79bc64, #578843);
 }
-.img{
-    width:39vw;
-}
+
 footer{
-    margin-left:13.7%;
-    margin-right:13.7%;
-    height:20.5vh;
+    position:relative;
+    height:21vh;
+    width:76%;
+    margin:auto;
     z-index:100;
+
 }
 nav {
     position:relative;
@@ -212,7 +229,7 @@ nav {
     background: transparent;
     border-bottom:1px solid #D3D8E8;
     height:18pt;
-    padding-bottom:5px;
+    padding-bottom:3px;
 }
 nav ul {
     list-style: none;
@@ -237,7 +254,7 @@ nav ul li:not(.except):hover{
 }
 table {
     border-collapse: collapse;
-    width: 96%;
+    width: 92.5%;
 
 }
 
